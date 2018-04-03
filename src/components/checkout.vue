@@ -51,7 +51,7 @@
                         <span class="text-xs-center">myName Surname</span>
                     </v-card-text>
                       <v-flex id="rightCheck" pt-3>
-                        <v-btn bottom mt-5 class="button" depressed type="submit" @click="submit">PROCEED</v-btn>
+                        <v-btn bottom mt-5 id="button" depressed type="submit" @click="submit">PROCEED</v-btn>
                       </v-flex>    
                     </v-card>  
                   </v-flex>
@@ -163,12 +163,12 @@ export default {
   border: solid deepskyblue 1px;
   border-radius: 8px;
 }
-.button{
+#button{
   border-radius: 6px;
   border: deepskyblue solid 2px;
   color: deepskyblue;
 }
-.button:hover{
+#button:hover{
   border-radius: 6px;
   background-color: deepskyblue;
   color: white;
